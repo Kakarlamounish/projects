@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>JS logical</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var uid = prompt("enter user id", "user id");
+        var pwd = prompt("enter a password", "password");
+
+        var message = (uid == "john" && pwd == "1234") ? "welcome" : "invalid user"
+        alert(message);
+
+    </script>
+</body>
+
+<body>
+    <script>
+        var user = prompt("enter your name", "name...");
+
+        var message = (user == "john" || user == "sam") ? "welcome" : "invalid user"
+        alert(message);
+
+    </script>
+</body>
+
+<body>
+    <script>
+        var user = prompt("enter your id", "id...");
+
+        var message = !(user == "john" || user == "sam") ? "welcome" : "invalid user"
+        alert(message);
+
+    </script>
+</body>
+
+</html>

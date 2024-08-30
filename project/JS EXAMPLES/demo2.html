@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>DEMO 2</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var tutorial = {
+            "topic":"javascript",
+            "trainer":"mounish",
+            "mode":"online"
+        };
+        document.write("topic:"+tutorial.topic);
+        document.write("<br/> <br/>");
+        document.write("trainer:"+tutorial.trainer);
+        document.write("<br/> <br/>");
+        document.write("mode:"+tutorial.mode);
+        document.write("<br/> <br/>");
+
+
+        var txt="";
+        var x;
+        for (x in tutorial)
+        {
+            txt +=tutorial[x] + ",";
+        }
+        document.write(txt);
+        </script>
+</body>
+</html>

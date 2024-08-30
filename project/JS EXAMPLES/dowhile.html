@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>do JS</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var actualpin="1432";
+        var pin ;
+        var count=0;
+        do{
+            pin=prompt("enter your pin","enter...");
+            count++;
+        } while(pin!=actualpin && count<3);
+        if(pin==actualpin)
+        {
+            document.write("welcome user");
+        } else{
+            document.write("account locked");
+        }
+    </script>
+</body>
+</html>

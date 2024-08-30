@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>JS error</title>
+    <script language="javascript" type="text/javascript">
+        function myFunc()
+        {
+            var a=100
+            try
+            {
+                var s=a.toUpperCase();
+                alert("value of a variable is:" + a);
+            }
+            catch(e)
+            {
+                alert("error");
+            }
+            finally
+            {
+                alert("finally block will always execute!");
+            }
+
+        }
+    </script>
+</head> 
+
+<body>
+    <p>click the following to see result:</p>
+    <form>
+        <input type="button" value="click me" onclick="myFunc();"/>
+    </form>
+</body>
+</html>

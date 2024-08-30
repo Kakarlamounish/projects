@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>JS ifelse</title>
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript">
+        var marks1 = parseInt(prompt("enter marks1", "enter"));
+        var marks2 = parseInt(prompt("enter marks2", "enter"));
+        var marks3 = parseInt(prompt("enter marks3", "enter"));
+
+        var total = marks1 + marks2 + marks3;
+        var percent = total * 100 / 150;
+        alert(percent);
+        if (percent >= 80) {
+            alert("grade A");
+        }
+        else if (percent >= 60) {
+            alert("grade B");
+        }
+        else if (percent >= 40) {
+            alert("grade c");
+        }
+        else {
+            alert("fail");
+        }
+    </script>
+</body>
+
+</html>
